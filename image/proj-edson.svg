@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(222,45%,10%)"/>
+      <stop offset="100%" stop-color="hsl(212,55%,16%)"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(207,62%,40%)"/>
+      <stop offset="100%" stop-color="hsl(222,45%,14%)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="0" y="0" width="800" height="56" fill="hsl(222,40%,8%)"/>
+  <circle cx="30" cy="28" r="7" fill="hsl(0,70%,60%)"/>
+  <circle cx="54" cy="28" r="7" fill="hsl(38,78%,55%)"/>
+  <circle cx="78" cy="28" r="7" fill="hsl(140,55%,50%)"/>
+  <rect x="120" y="16" width="560" height="24" rx="12" fill="hsl(222,30%,16%)"/>
+  <text x="140" y="33" font-family="Poppins, sans-serif" font-size="14" fill="hsl(210,20%,70%)">bbstardts.github.io/Edson</text>
+
+  <rect x="0" y="56" width="800" height="260" fill="url(#hero)"/>
+  <text x="400" y="170" font-family="Poppins, sans-serif" font-size="34" font-weight="700" fill="#fff" text-anchor="middle">Edson Gonçalves</text>
+  <text x="400" y="205" font-family="Poppins, sans-serif" font-size="17" fill="hsl(210,25%,85%)" text-anchor="middle">Reformas e Construções · Manaus, AM</text>
+  <rect x="320" y="235" width="160" height="40" rx="20" fill="hsl(38,78%,55%)"/>
+  <text x="400" y="261" font-family="Poppins, sans-serif" font-size="15" font-weight="600" fill="hsl(222,45%,10%)" text-anchor="middle">Solicitar Orçamento</text>
+
+  <g>
+    <rect x="40" y="350" width="220" height="180" rx="14" fill="hsl(222,35%,14%)" stroke="hsla(38,82%,58%,.2)"/>
+    <rect x="60" y="370" width="180" height="90" rx="8" fill="hsl(207,58%,40%)"/>
+    <rect x="60" y="472" width="140" height="14" rx="4" fill="hsl(210,20%,80%)"/>
+  </g>
+  <g>
+    <rect x="290" y="350" width="220" height="180" rx="14" fill="hsl(222,35%,14%)" stroke="hsla(38,82%,58%,.2)"/>
+    <rect x="310" y="370" width="180" height="90" rx="8" fill="hsl(38,72%,48%)"/>
+    <rect x="310" y="472" width="140" height="14" rx="4" fill="hsl(210,20%,80%)"/>
+  </g>
+  <g>
+    <rect x="540" y="350" width="220" height="180" rx="14" fill="hsl(222,35%,14%)" stroke="hsla(38,82%,58%,.2)"/>
+    <rect x="560" y="370" width="180" height="90" rx="8" fill="hsl(207,58%,40%)"/>
+    <rect x="560" y="472" width="140" height="14" rx="4" fill="hsl(210,20%,80%)"/>
+  </g>
+</svg>

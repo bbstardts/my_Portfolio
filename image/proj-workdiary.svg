@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(222,45%,10%)"/>
+      <stop offset="100%" stop-color="hsl(212,55%,16%)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="0" y="0" width="800" height="56" fill="hsl(222,40%,8%)"/>
+  <circle cx="30" cy="28" r="7" fill="hsl(0,70%,60%)"/>
+  <circle cx="54" cy="28" r="7" fill="hsl(38,78%,55%)"/>
+  <circle cx="78" cy="28" r="7" fill="hsl(140,55%,50%)"/>
+  <rect x="120" y="16" width="560" height="24" rx="12" fill="hsl(222,30%,16%)"/>
+  <text x="140" y="33" font-family="Poppins, sans-serif" font-size="14" fill="hsl(210,20%,70%)">work-diary-ai.app</text>
+
+  <text x="40" y="105" font-family="Poppins, sans-serif" font-size="30" font-weight="700" fill="#fff">Work Diary AI</text>
+  <rect x="600" y="80" width="160" height="34" rx="17" fill="hsl(38,78%,55%)"/>
+  <text x="680" y="102" font-family="Poppins, sans-serif" font-size="14" font-weight="600" fill="hsl(222,45%,10%)" text-anchor="middle">AI Summary</text>
+
+  <!-- entry cards -->
+  <g>
+    <rect x="40" y="150" width="340" height="150" rx="14" fill="hsl(222,35%,14%)" stroke="hsla(38,82%,58%,.2)"/>
+    <text x="60" y="180" font-family="Poppins, sans-serif" font-size="14" fill="hsl(38,78%,58%)">Monday</text>
+    <rect x="60" y="196" width="300" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+    <rect x="60" y="216" width="260" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+    <rect x="60" y="236" width="280" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+  </g>
+  <g>
+    <rect x="420" y="150" width="340" height="150" rx="14" fill="hsl(222,35%,14%)" stroke="hsla(207,62%,50%,.2)"/>
+    <text x="440" y="180" font-family="Poppins, sans-serif" font-size="14" fill="hsl(207,62%,55%)">Tuesday</text>
+    <rect x="440" y="196" width="300" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+    <rect x="440" y="216" width="240" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+    <rect x="440" y="236" width="270" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+  </g>
+
+  <!-- weekly AI summary panel -->
+  <rect x="40" y="330" width="720" height="150" rx="14" fill="hsl(222,35%,14%)" stroke="hsla(38,82%,58%,.25)"/>
+  <text x="60" y="362" font-family="Poppins, sans-serif" font-size="16" fill="hsl(45,90%,68%)" font-weight="600">Sunday AI Weekly Report</text>
+  <rect x="60" y="380" width="660" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+  <rect x="60" y="400" width="600" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+  <rect x="60" y="420" width="640" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+  <rect x="60" y="440" width="520" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+</svg>

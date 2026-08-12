@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(222,45%,10%)"/>
+      <stop offset="100%" stop-color="hsl(212,55%,16%)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="0" y="0" width="800" height="56" fill="hsl(222,40%,8%)"/>
+  <circle cx="30" cy="28" r="7" fill="hsl(0,70%,60%)"/>
+  <circle cx="54" cy="28" r="7" fill="hsl(38,78%,55%)"/>
+  <circle cx="78" cy="28" r="7" fill="hsl(140,55%,50%)"/>
+  <rect x="120" y="16" width="560" height="24" rx="12" fill="hsl(222,30%,16%)"/>
+  <text x="140" y="33" font-family="Poppins, sans-serif" font-size="14" fill="hsl(210,20%,70%)">stockwise.app/dashboard</text>
+
+  <!-- sidebar -->
+  <rect x="0" y="56" width="140" height="544" fill="hsl(222,40%,8%)"/>
+  <rect x="20" y="90" width="100" height="14" rx="4" fill="hsl(38,78%,55%)"/>
+  <rect x="20" y="130" width="100" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+  <rect x="20" y="160" width="100" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+  <rect x="20" y="190" width="100" height="10" rx="4" fill="hsl(210,20%,55%)"/>
+
+  <!-- KPI cards -->
+  <g>
+    <rect x="170" y="80" width="170" height="90" rx="12" fill="hsl(222,35%,14%)" stroke="hsla(38,82%,58%,.25)"/>
+    <text x="190" y="115" font-family="Poppins, sans-serif" font-size="13" fill="hsl(210,20%,70%)">Stock Value</text>
+    <text x="190" y="148" font-family="Poppins, sans-serif" font-size="24" font-weight="700" fill="hsl(38,78%,58%)">₦2.4M</text>
+  </g>
+  <g>
+    <rect x="360" y="80" width="170" height="90" rx="12" fill="hsl(222,35%,14%)" stroke="hsla(207,62%,50%,.25)"/>
+    <text x="380" y="115" font-family="Poppins, sans-serif" font-size="13" fill="hsl(210,20%,70%)">Low Stock</text>
+    <text x="380" y="148" font-family="Poppins, sans-serif" font-size="24" font-weight="700" fill="hsl(207,62%,55%)">7</text>
+  </g>
+  <g>
+    <rect x="550" y="80" width="200" height="90" rx="12" fill="hsl(222,35%,14%)" stroke="hsla(38,82%,58%,.25)"/>
+    <text x="570" y="115" font-family="Poppins, sans-serif" font-size="13" fill="hsl(210,20%,70%)">Issued Today</text>
+    <text x="570" y="148" font-family="Poppins, sans-serif" font-size="24" font-weight="700" fill="hsl(38,78%,58%)">128</text>
+  </g>
+
+  <!-- bar chart -->
+  <rect x="170" y="195" width="580" height="330" rx="14" fill="hsl(222,35%,14%)" stroke="hsla(38,82%,58%,.2)"/>
+  <text x="190" y="225" font-family="Poppins, sans-serif" font-size="15" fill="hsl(210,20%,80%)">14-Day Stock Movement</text>
+  <g fill="hsl(38,78%,55%)">
+    <rect x="210" y="380" width="26" height="100"/>
+    <rect x="256" y="340" width="26" height="140"/>
+    <rect x="302" y="400" width="26" height="80"/>
+    <rect x="348" y="320" width="26" height="160"/>
+  </g>
+  <g fill="hsl(205,85%,55%)">
+    <rect x="394" y="360" width="26" height="120"/>
+    <rect x="440" y="300" width="26" height="180"/>
+    <rect x="486" y="420" width="26" height="60"/>
+    <rect x="532" y="350" width="26" height="130"/>
+  </g>
+  <g fill="hsl(38,78%,55%)">
+    <rect x="578" y="330" width="26" height="150"/>
+    <rect x="624" y="390" width="26" height="90"/>
+    <rect x="670" y="310" width="26" height="170"/>
+    <rect x="716" y="370" width="26" height="110"/>
+  </g>
+</svg>
