@@ -356,9 +356,17 @@ article { display: none; }
 .social-item .social-link {
     color: var(--light-gray70);
     font-size: 18px;
+    transition: color 0.25s ease;
 }
 
-    .social-item .social-link:hover { color: var(--light-gray); }
+.social-item .social-link[href*="facebook"]:hover   { color: #1877F2; }
+.social-item .social-link[href*="instagram"]:hover  { color: #E4405F; }
+.social-item .social-link[href*="wa.me"]:hover,
+.social-item .social-link[href*="whatsapp"]:hover    { color: #25D366; }
+.social-item .social-link[href*="linkedin"]:hover    { color: #0A66C2; }
+.social-item .social-link[href*="github"]:hover      { color: #ffffff; }
+.social-item .social-link[href*="x.com"]:hover,
+.social-item .social-link[href*="twitter"]:hover     { color: #ffffff; }
 
 /*NAVBAR*/
 
